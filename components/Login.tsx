@@ -2,7 +2,7 @@
 import { ChangeEventHandler, useState } from "react";
 import axios from "axios";
 
-export function Signup() {
+export function Login() {
   const [username, setUsernaame] = useState("");
   const [password, setPassword] = useState("");
 
@@ -10,7 +10,7 @@ export function Signup() {
     <div className="h-screen flex justify-center flex-col">
       <div className="flex justify-center ">
         <div>
-          <div className="text-3xl font-extrabold px-10">Signup</div>
+          <div className="text-3xl font-extrabold px-10">Login</div>
           <div className="pt-2">
             <LableInput
               label="username"
@@ -37,7 +37,7 @@ export function Signup() {
               }}
               className="mt-8 w-full text-white bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
             >
-              Sign in
+              Login
             </button>
           </div>
         </div>
